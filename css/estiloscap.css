@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+@media screen and (min-width: 768px){
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+}
+@media screen and (min-width:1024px){
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+body{
+    font-family: "Roboto", Helvetica, sans-serif;
+    background-color:#fff;
+    font-size: 16px;
+    justify-items: center;
+}
+nav {
+    
+    background-color: #7E1414;
+    padding:  12px;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-image: url(/images/Cabecera1.jpeg);
+    background-size:cover;
+    max-width: 100%;
+    min-width: 40%;
+}
+.cabecera-img{
+    background-image: url(/images/Cabecera.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 60%;
+    display: flex;
+    margin-left: 20%;
+}
+.menu li a{
+display: flex;
+text-decoration: none;
+color:white;
+margin: 2px 80px 2px 40px;
+padding: 2px;
+}
+.logo{
+    display: flex;
+    width: 100px;
+    height: 150px;
+    min-width: 20%;
+    max-width: 100%;
+    min-height: 30%;
+}
+
+.menu ul{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    list-style: none;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 19px;
+    border-radius: 10px;
+}
+.contenido{
+    background:linear-gradient(#f8d1d1,#f0d3d3,#fff,#f7cdcd,#f8d1d1);
+    float: left;
+    border-radius: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    text-indent: 30px;
+    width: 75%;
+    margin: 20px;
+}
+.container{
+    text-align: center;
+    margin: 0px;
+    display: flex;
+}
+.titulo{
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    color: #7E1414;
+}
+
+.videos{
+    background: linear-gradient(#d1adad,#f0d3d3,#f8d1d1,#f0d3d3,#fff,#f7cdcd,#f8d1d1,#d1adad);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    align-items: center;
+    margin: 50px;
+    box-shadow: #464141 5px 5px 10px;
+}
+iframe{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: #464141 5px 5px 10px;
+}
+.flecha{
+    margin: 30px;
+    font-size: 40px;
+    color: #888282;
+}
+.relacionados{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+    align-items: center;
+    width: 20%;
+    height: 1300px;
+    background-color: #f0eaea;
+    border-radius: 20px;
+    box-shadow: #a39b9b 2px 2px 10px;
+    float: right;
+    
+    
+}
+.titrel{
+    margin:10px 10px 10px 10px;
+    padding: 10px;
+    font-size: 20px;
+    color:#7E1414;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    margin:10px;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+}
+.email{
+    margin-left: 30px;
+}
+.suscribir{
+    background-color: #e40404;
+    padding: 10px 30px 10px 30px;
+    margin: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+    color: #f0eaea;
+}
+input{
+    background-color: #f5c7c7;
+    border: solid 1px #b68686;
+    margin-left:30px;
+}
+.card{
+    margin:0px 10px 50px 10px;
+    background-color: #e0d6d6;
+    border-radius: 20px;
+    box-shadow: #706b6b 2px 2px 5px;
+    width: 180px;
+}
+.image{
+    width: 150px;
+    margin: 10px;
+    border-radius: 100%;
+}
+button{
+    margin: 10px;
+    margin-left: 60px;
+    background-color: #7E1414;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: #361818 2px 2px 5px;
+    
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+button:hover{
+    background-color: #464141;
+}
+h1 {
+font-family:"Joti One";
+font-size: 40px ;
+padding: 40px;
+}
+#pie{
+    height: 120px;
+    width: 180px;
+    border-radius: 50px;
+    margin: 20px;
+    box-shadow: #300a0a 5px 5px 30px;
+}
+footer{
+    background-color: #be6565;
+    clear: both;
+    }
+
+.contenidofooter{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.textfooter{
+    color: #f0c2c2;
+    font-size: 20px;
+    font-family: "Joti One";
+}
+.icon {
+color: #7E1414;
+padding: 0px;
+text-align: center;
+font-size: 30px;
+margin: 10px;
+
+}
+footer a:hover{
+    color: #000000;
+    font-size: 50px;
+    border-radius: 100%;
+    
+    }
+
