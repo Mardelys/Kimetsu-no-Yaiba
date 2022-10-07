@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(/personajes/giyucabecera.jpg);
+    height: 250px;
+}
+.cabecera{
+    height: 250px;
+    background-image: url(/personajes/giyucabecera1.jpg);
+    width: 700px;
+    background-size: cover;
+}
+.logo{
+    width: 180px;
+    margin: 0px;
+}
+h1{
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Joti One";
+    font-size: 35px;
+}
+h2{
+    font-family: "Joti One";
+    font-size: 30px;
+}
+
+.back{
+    font-size: 40px;
+    margin: 20px;
+    color: darkred;
+    background-color: #f1bebe;
+    padding: 6px 8px;
+    border-radius: 20px;
+}
+.back:hover{
+    color: #fff;
+    background-color: darkred;
+}
+.contenedor{
+    background:linear-gradient(#fff,#f7cdcd,#f8d1d1);
+    max-width: 95% ;
+    margin-left: 30px;
+    border-radius: 30px;
+    
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    text-indent: 30px;
+    line-height: 25px;
+    
+}
+.perfil{
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: #807a7a 10px 10px 10px;
+    margin: 0px 20px 10px 20px;
+}
+.cuerpo{
+    height: 400px;
+    margin-left: 100px;
+    
+}
+.ataque{
+    width: 400px;
+    margin-top: 60px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 17px;
+    margin: 30px;
+}
+ul{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 30px;
+}

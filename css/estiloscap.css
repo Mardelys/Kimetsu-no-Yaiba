@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
-@media screen and (min-width: 768px){
-}
-@media screen and (min-width: 768px) and (max-width: 1024px){
-}
-@media screen and (min-width:1024px){
-    
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -99,7 +92,7 @@ h2{
     margin-bottom: 50px;
     border-radius: 30px;
     align-items: center;
-    margin: 50px;
+    margin: 70px;
     box-shadow: #464141 5px 5px 10px;
 }
 iframe{
@@ -120,7 +113,7 @@ iframe{
     margin: 20px 10px 20px 10px;
     align-items: center;
     width: 20%;
-    height: 1300px;
+    height: 1700px;
     background-color: #f0eaea;
     border-radius: 20px;
     box-shadow: #a39b9b 2px 2px 10px;
@@ -134,6 +127,43 @@ iframe{
     font-size: 20px;
     color:#7E1414;
     text-align: center;
+}
+.comentarios{
+    margin: 15px;
+}
+.post{
+    background-color: #fff;
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    height: 200px;
+    
+
+}
+.coment{
+    width: 80px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    
+}
+.imgpost{
+    border-radius: 100%;
+    margin: 10px 10px 10px 10px;
+}
+.heart{
+    color:#e40404;
+    font-size: 30px;
+}
+#comentarios{
+    margin: 20px;
+    background-color:#fce5e5;
+}
+p{
+    text-align: left;
 }
 h3{
     font-size: 20px;

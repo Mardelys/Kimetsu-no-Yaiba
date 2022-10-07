@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
-@media screen and (min-width: 768px){
-}
-@media screen and (min-width: 768px) and (max-width: 1024px){
-}
-@media screen and (min-width:1024px){
-    
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -71,20 +64,23 @@ nav ul li a:hover{
     background:linear-gradient(#f8d1d1,#f0d3d3,#fff,#f7cdcd,#f8d1d1);
     float: left;
     border-radius: 30px;
-    display:flex;
-    flex-wrap: wrap;
-    text-indent: 30px;
     width: 75%;
     margin: 20px ;
-    justify-content: space-around;
+    
 }
+.personajes{
+    display: flex;
+    justify-content: space-around;
+    }
+
 .titulo{
     font-size: 30px;
 }
 h2{
     text-align: center;
     margin: 30px;
-    color: #7E1414;
+    color: #000000;
+    font-family: "Joti One";
 }
 
 .relacionados{
@@ -93,7 +89,7 @@ h2{
     margin: 20px 10px 20px 10px;
     align-items: center;
     width: 20%;
-    height: 1300px;
+    height: 1100px;
     background-color: #f0eaea;
     border-radius: 20px;
     box-shadow: #a39b9b 2px 2px 10px;
@@ -137,7 +133,7 @@ input{
 }
 .image{
     width: 140px;
-    margin-top: 30px;
+    margin: 30px 0px 15px 28px;
     border-radius: 100%;
     box-shadow: #706b6b 2px 2px 5px;
 
@@ -145,25 +141,70 @@ input{
 button{
     margin: 10px;
     margin-left: 60px;
-    background: linear-gradient(#f8d1d1,#f0d3d3,#f7cdcd,#f8d1d1);
+    background-color: #faa1a1;
     padding: 6px;
     border: none;
     border-radius: 3px;
     box-shadow: #361818 2px 2px 5px;
-    
+    align-items: center;
 }
 button a{
     text-decoration: none;
-    color: rgb(77, 74, 74);
-    padding: 15px;
+    color: rgb(29, 27, 27);
+    padding: 25px;
+    font-size: 17px;
 }
 button:hover{
-    background-color: #464141;
+    background-color: #7E1414;
+    color:#fff;
+}
+button a:hover{
+    color: #fff;
 }
 h1 {
 font-family:"Joti One";
 font-size: 40px ;
 padding: 40px;
+text-align: center;
+}
+.comentarios{
+    margin: 15px;
+}
+.post{
+    background-color: #fff;
+    margin: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    height: 200px;
+    
+
+}
+.coment{
+    width: 80px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.imgpost{
+    border-radius: 100%;
+    margin: 10px 10px 10px 10px;
+}
+.heart{
+    color:#e40404;
+    font-size: 30px;
+}
+#comentarios{
+    margin: 20px;
+    background-color:#fce5e5;
+}
+.text{
+    margin-left: 70px;
+}
+.publicar{
+    margin-left: 100px;
 }
 #pie{
     height: 120px;
